@@ -1,0 +1,164 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: Arial;
+}
+.header-inner-content{
+  max-width: 1300;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  color: #fff;
+  background-color: #0053a9;
+  padding: 7px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-family: Montserrat;
+  box-shadow: 5px 0px 5px #0053a9;
+}
+ul {
+  list-style: none;
+  font-size: 12px;
+  display: flex;
+  margin-right: 1.5rem;
+  padding: 0 15px;
+  padding-top: 5px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  cursor: pointer;
+}
+ul:hover{
+  transform: translateY(-5px);
+  transition: all 0.2s;
+  font-weight: bold;
+}
+ul>img{
+  padding-top: 50px;
+}
+
+img {
+  pointer-events: none;
+}
+.pixImage {
+  position: relative;
+  padding-left: 2%;
+  bottom: 1px;
+  width: 72px;
+  height: 20px;
+}
+nav {
+  height: 60px;
+  padding: 7px 40px;
+  display: flex;
+  justify-content: center;
+}
+.logo1{
+  max-width: fit-content;
+  max-height: fit-content;
+  padding: 10px;
+}
+.imgNavbar{
+  width: 36px;
+  height: 36px;
+  padding: 5px;
+}
+.search-card {
+  padding: 20px;
+  height: 38px;
+  width: 300px;
+  border-radius: 5px;
+  border: 0px solid #f2f2f2;
+  background: #f2f2f2;
+}
+.submit-lupa {
+  padding-left: 10px;
+  padding-right: 60px;
+  color:#0053A9;
+  border:none;
+  background:transparent;
+  outline:none;
+}
+.nav2{
+  height: 40px;
+  padding: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 0px 5px #3333338a;
+}
+.carousel{
+  box-shadow: 10px 0px #3333338a;
+}
+.imgNav2{
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+}
+.img2Nav2{
+  width: 160px;
+  height: 30px;
+  padding: 5px;
+}
+.head2{
+  height: 40px;
+  padding: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  cursor:default;
+  box-shadow: 5px 0px 5px #3333338a;
+}
+
+.img1Head2{
+  width: 5px;
+  height: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.img2Head2{
+  width: 20px;
+  height: 27px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.img3Head2{
+  width: 17px;
+  height: 23px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.img4Head2{
+  width: 27px;
+  height: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.img5Head2{
+  width: 19px;
+  height: 13px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.page-inner-content {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.cols{
+  display: grid;
+  justify-content: space-evenly;
+  padding: 4rem 1rem;
+}
+.cols-3{
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
